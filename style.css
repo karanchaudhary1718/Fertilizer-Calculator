@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background: hsl(126, 61%, 59%);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  background: #80b986;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #0a0a0a;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background: #48cb48;
+  color: rgb(18, 17, 17);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #75a678;
+}
+
+#result {
+  margin-top: 20px;
+  background: #ced1cb;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.uber-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+}
+
+.footer-column h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.footer-column a {
+  display: block;
+  color: #b3b3b3;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  color: #fff;
+}
+
+.social-icons img {
+  width: 30px;
+  height: auto;
+  font-size: 20px;
+  display: block;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 40px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
